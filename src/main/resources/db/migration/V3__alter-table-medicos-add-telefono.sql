@@ -1,0 +1,1 @@
+alter table medicos alter column telefono set not null;
