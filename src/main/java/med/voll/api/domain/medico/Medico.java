@@ -23,6 +23,7 @@ public class Medico {
     private String telefono;
     private String documento;
 
+    @Column(name = "activo")
     private Boolean activo;
     @Enumerated(EnumType.STRING)
     private Especialidad especialidad;
@@ -52,6 +53,7 @@ public class Medico {
     }
 
     public void desactivarMedico() {
+
         this.activo = false;
     }
 }

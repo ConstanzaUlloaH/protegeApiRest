@@ -30,7 +30,6 @@
 
 package med.voll.api.domain.consulta.validaciones;
 
-import jakarta.validation.ValidationException;
 import med.voll.api.domain.consulta.DatosAgendarConsulta;
 import med.voll.api.domain.medico.MedicoRepository;
 import med.voll.api.infra.errores.ValidacionDeIntegridad;
